@@ -1,0 +1,53 @@
+body{
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header{
+    background-color: purple;
+    color: white;
+    padding: 10px 20px;
+}
+
+header nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center ;
+    gap: 10px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav ul li a:hover{
+   text-decoration: underline;
+   color: blue;
+}
+
+/* Hero Section */
+
+.hero {
+    background-color: rgb(68, 21, 71);
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+.hero-content h1 {
+font-size: 3rem;}
+
+
+.hero-content p {
+font-size: 3rem;
+margin: 20px 0;
+}
+.cta-button {
+    background-color: rgb(47, 3, 47);
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
