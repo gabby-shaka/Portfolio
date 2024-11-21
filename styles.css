@@ -73,6 +73,7 @@ color: white;
 }
 .skills h2{
     font-size: 2.5rem;
+    
 
 }
 .skill-list{
@@ -83,7 +84,40 @@ color: white;
 }
 .skill-item{
     padding: 20px;
-    background-color: darkorchid;
+    background-color: rgb(35, 2, 52) ;
     border-radius:10px ;
-    width:25%
+    width:25%;
+    color: white;
 }
+
+.project{
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.project-list{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.project-item{
+    padding: 20px;
+    background-color: rgb(33, 2, 49);
+    border-radius:10px ;
+    width: 25%;
+    color: white
+
+}
+
+.project-item img{
+    width: 50%;
+   ;
+
+}
+
+
+
+
+
